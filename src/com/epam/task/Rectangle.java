@@ -8,6 +8,18 @@ public class Rectangle extends Shape {
         this.width = width;
         this.height = height;
     }
+        public double getWidth() { 
+        return width; 
+    }
+    public void setWidth(double width) {
+        this.width = width;
+    }
+    public double getHeigth() {
+        return height; 
+    }
+    public void setHeigth(double heigth) {
+        this.height = heigth; 
+    }
 
     @Override
     public double calcArea() {
